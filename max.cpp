@@ -9,5 +9,5 @@ int main()
     cout << b <<" is greater"<<endl;
     else
     cout << a << " is greater"<<endl;
-    
+  return 0;  
 }

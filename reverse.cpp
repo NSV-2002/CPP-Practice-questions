@@ -8,8 +8,9 @@ int main()
     while(num!=0)
     {
         remainder = num%10;
-        reversed = reversed*10+remainder;
-        num /=10;
+        reversed =reversed*10+remainder;
+        num/=10;
     }
-    cout << " reversed number :- "<<reversed<<endl;
+    cout <<"revesed number :-"<<reversed<<endl;
+    return 0;
 }
